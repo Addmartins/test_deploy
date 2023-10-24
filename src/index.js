@@ -8,4 +8,6 @@ app.get('/', async(req, res) => {
     return res.send('api ok!');
 })
 
-app.listen(3000);
+app.listen(3000, () => {
+    console.log('servidor ativo!')
+});
